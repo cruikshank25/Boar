@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+            body {
+              font-family: 'Noto Sans', sans-serif;
+              -webkit-font-smoothing: antialiased;
+              text-rendering: optimizeLegibility;
+              color: #000000;
+              background: #ffffff;
+             }
+
+            h1 {
+              margin: em 0 0 0;
+              color: #3498DB;
+              font-family: 'Noto Sans', sans-serif;
+              font-size: 1.8em;
+              text-transform: uppercase;}
+        </style>
+        <meta charset="utf-8">
+        <title>Snort Alerts</title>
+        {{ bokeh_css }}
+        {{ bokeh_js }}
+    </head>
+    <body>
+    <h1>Snort Alerts</h1>
+        {{ plot_div|indent(8) }}
+        {{ plot_script|indent(8) }}
+    </body>
+</html>

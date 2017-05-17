@@ -1,0 +1,17 @@
+attrs:
+    Plot:
+        background_fill_color: '#ffffff'
+        border_fill_color: '#ffffff'
+        outline_line_color: '#ffffff'   
+    Axis:
+        axis_line_color: "#000000"
+        axis_label_text_color: "#3498DB"
+        major_label_text_color: "#000000"
+        major_tick_line_color: "#000000"
+        minor_tick_line_color: "#000000"
+        minor_tick_line_color: "#000000"
+    Grid:
+        grid_line_dash: [6, 4]
+        grid_line_alpha: .3
+    Title:
+        text_color: "#3498DB"
