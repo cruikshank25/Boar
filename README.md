@@ -1,12 +1,15 @@
 **Boar - Snort IDS Alert Visualization**
 
+This project visualizes Snort IDS alert data from the barnyard2 MySQL database in real-time using modern Python data analytics.
+
 ![example_dashboard](https://cloud.githubusercontent.com/assets/22418075/26171251/312a9f86-3b3c-11e7-81a5-69123455cab2.png
 )
+
+
 **Architecture:**
 
 ![example_architechture](https://cloud.githubusercontent.com/assets/22418075/26170725/57f0dc04-3b3a-11e7-81d9-5c14b4750400.PNG
 )
-To run the project you mgust have the following dependancies installed:
 
 **Python Software Dependancies:**
 
