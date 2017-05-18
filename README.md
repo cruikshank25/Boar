@@ -2,6 +2,16 @@
 
 This project visualizes Snort IDS alert data from the barnyard2 MySQL database in real-time using modern Python data analytics.
 
+**Features:**
+
+- 'Big Data' style visualization for overview of attacks.
+
+- Real-Time capability with updating plots.
+
+- Utilises Bokeh, a modern Python visualization library. 
+
+- Ability to hover over individual alerts in realtime.
+
 **Example Dashboard:**
 
 ![example_dashboard](https://cloud.githubusercontent.com/assets/22418075/26171251/312a9f86-3b3c-11e7-81a5-69123455cab2.png
@@ -53,13 +63,3 @@ Remember to change the database username, password and address to your specific 
 To execute the software, use the following command from parent directory;
 
 `bokeh serve --show Boar`
-
-**Features:**
-
-- 'Big Data' style visualization for overview of attacks.
-
-- Real-Time capability with updating plots.
-
-- Utilises Bokeh, a modern Python visualization library. 
-
-- Ability to hover over individual alerts in realtime.
